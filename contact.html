@@ -15,7 +15,7 @@
     <!-- personalized style sheet -->
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>My Portfolio | About Me</title>
+    <title>My Portfolio | Contact</title>
 
 </head>
 
@@ -45,9 +45,8 @@
                 </div>
                 <div class="col-md-8 divAboutMe">
                     <div class="row aboutMeRow">
-
                         <div class="col-md-6">
-                            <h2>About Me</h2>
+                            <h2>Contact</h2>
                         </div>
                         <div class="col-md-6">
                             <!-- PlaceHolder div -->
@@ -55,27 +54,22 @@
                     </div>
 
                     <div class="row mainRowClass">
-                        <div class="col-md-3 text-center">
-                            <img src="assets/images/hetal.png" class="img-fluid img-thumbnail" alt="Hetal Image"
-                                width="150" height="150">
-                        </div>
-                        <div class="col-md-9">
-                            <article id="aboutMeArticle">
-                                <h3>Greetings.</h3>
-                                <p>
-                                    My Name is Hetal. I am a Freelancer Front End Developer.
-                                </p>
-                                <p>
-                                    Coding is my passion. I use different web-technologies to make websites such as
-                                    HTML,Css, JavaScript,JQuery and many more...
-                                </p>
-                                <p>
-                                    Besides coding I love to do painting, use different softwares to edit photographs.
-                                    In my free time I also like to do gardening, walking, and cooking. I enjoy listening
-                                    music.
-
-                                </p>
-                            </article>
+                        <div class="col-md-12">
+                            <form>
+                                <div class="form-group">
+                                    <label for="Name">Name</label>
+                                    <input type="text" class="form-control" placeholder="Enter name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Email">Password</label>
+                                    <input type="email" class="form-control" placeholder="abc@xyz.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Message">Messagae</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary" id="btnSubmit">Submit</button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -95,9 +89,11 @@
             </div>
 
         </div>
-    </div>
+
 
     </div>
+
+
 </body>
 
 </html>

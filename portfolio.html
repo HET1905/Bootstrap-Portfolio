@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- BootStrap link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- reset style sheet -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+
+    <!-- personalized style sheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>My Portfolio | Portfolio Page</title>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <nav class="topMenu">
+            <a class="navbar-brand topName" href="#">
+                <h1>Hetal Patel</h1>
+            </a>
+            <ul class="nav justify-content-end rightMenu">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="container-fluid outerSectionClass">
+            <div class="row mainRowClass">
+                <div class="col-md-2">
+                    <!-- palceHolder Div -->
+                </div>
+                <div class="col-md-8 divAboutMe">
+                    <div class="row aboutMeRow">
+
+                        <div class="col-md-6">
+                            <h2>Portfolio</h2>
+                        </div>
+                        <div class="col-md-6">
+                            <!-- PlaceHolder div -->
+                        </div>
+                    </div>
+
+                    <div class="row mainRowClass">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <!-- PlaceHolder Div -->
+                </div>
+            </div>
+        </div>
+        <!------------------ footer--------- -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <footer class="clear">
+                        copyright &copy; Hetal Patel
+                    </footer>
+                </div>
+            </div>
+
+        </div>
+    
+    
+    </div>
+
+    
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ------------------------------------------------------------------------------ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>My Portfolio | Portfolio Page</title>
+
+</head>
+
+<body>
+    <div>
+        <header id="mainHeader">
+            <h1 id="mainH1">Hetal Patel</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- -----------------------------------Portfolio------------------------------------- -->
+        <section id="mainSectionAboutMe" class="outerSectionClass outerSectionPortfolio">
+
+            <section id="innerSectionAboutMe" class="innerSectionClass innerSectionPortfolio">
+                <header>
+                    <h2>Portfolio</h2>
+                </header>
+                <section class="imgSectionClass">
+                    <img id="img1" src="assets/images/img1.jfif" alt="Desert Image" width="150" height="150"
+                        onclick="displayImage(this.src)">
+                    <h2>Desert</h2>
+                </section>
+
+                <section class="imgSectionClass">
+                    <img src="assets/images/img2.jfif" alt="TajMahal,India" width="150" height="150"
+                        onclick="displayImage(this.src)">
+                    <h2>Taj Mahal, India</h2>
+                </section>
+
+                <section class="imgSectionClass">
+                    <img src="assets/images/img3.jfif" alt="Hyde Park, London" width="150" height="150"
+                        onclick="displayImage(this.src)">
+                    <h2>Hyde Park, London</h2>
+                </section>
+
+                <section class="imgSectionClass">
+                    <img src="assets/images/img4.jfif" alt="Moscow, Russia" width="150" height="150"
+                        onclick="displayImage(this.src)">
+                    <h2>Moscow, Rusia</h2>
+                </section>
+
+                <section class="imgSectionClass">
+                    <img src="assets/images/img5.jfif" alt="Twin Tower, Malaysia" width="150" height="150"
+                        onclick="displayImage(this.src)">
+                    <h2>Twin Tower, Malaysia</h2>
+                </section>
+            </section>
+        </section>
+        <div id="imgOpenDiv">
+            <!-- Opens clicked image in this div -->
+            <header>
+                <span onclick="closeImg()">X</span>
+            </header>
+            <img src="" alt="" id="divImg">
+        </div>
+        <!-- ------------------------------------Footer-------------------------------------------- -->
+        <footer class="clear">
+            copyright &copy; Hetal Patel
+        </footer>
+
+    </div>
+
+    <script src="assets/js/script.js">
+    </script>
+
+</body>
+
+</html>

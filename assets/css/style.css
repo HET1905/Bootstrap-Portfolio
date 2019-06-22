@@ -18,12 +18,15 @@ h2,
 h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-h1{
+
+h1 {
     font-size: 1.5em;
 }
-h2{
+
+h2 {
     font-size: 1.2em;
 }
+
 .clear {
     clear: both;
 }
@@ -37,6 +40,7 @@ h2{
 a {
     text-decoration: none;
     color: #222;
+
 }
 
 a:hover {
@@ -44,14 +48,20 @@ a:hover {
     padding: 2px 5px;
     color: #fff;
 }
-.nav{
-    margin-right:5%;
+
+.nav {
+    margin-right: 5%;
+
 }
+
 nav {
     background: #ffffff;
     border-bottom: 2px solid #ccc;
 }
 
+a.nav-link {
+    cursor: pointer;
+}
 
 .navbar-brand {
     margin-left: 10%;
@@ -62,6 +72,7 @@ nav {
     float: left;
     margin-top: 5px;
     padding: 5px 5px;
+    /* cursor: pointer; */
 }
 
 .topMenu .topName {
@@ -94,37 +105,44 @@ nav {
 }
 
 /* ---------------------------About Me Styling-------------------- */
-.mainRowClass{
+.mainRowClass {
     padding-top: 2%;
 }
-.divAboutMe{
+
+.divAboutMe {
     /* height: 480px; */
     height: auto;
     padding-bottom: 8%;
-    border: 1px solid #ddd; 
-     background: #fff;
+    border: 1px solid #ddd;
+    background: #fff;
 }
-.divAboutMe h2{
+
+.divAboutMe h2 {
     font-size: 1.5em;
     color: #4aaaa5;
-    margin-top:5%;
+    margin-top: 5%;
     margin-left: 10%;
 }
-.aboutMeRow{
+
+.aboutMeRow {
     margin-right: 10px;
     margin-left: 10px;
     padding-bottom: 20px;
-    border-bottom: 1px solid #ddd;;
+    border-bottom: 1px solid #ddd;
+    ;
 }
-.col-md-3 img{
+
+.col-md-3 img {
     width: 90%;
     height: auto;
 }
-#aboutMeArticle h3{
+
+#aboutMeArticle h3 {
     margin-bottom: 5%;
     font-size: 1.5em;
 }
-#aboutMeArticle p{
+
+#aboutMeArticle p {
     margin-top: 10px;
     line-height: 1.8em;
 }
@@ -138,65 +156,15 @@ footer {
     border-top: 5px solid #4aaaa5;
 }
 
-/* --------------------Media Query------------------------ */
-/* ---------------Appled on devices smaller than 768px ----------- */
-@media only screen and (max-width: 768px)  {
-    p{ 
-        font-size: 0.8em;
-    }
-    h1{
-        font-size: 1.2em;
-    }
-    .divAboutMe h2{
-        font-size: 1.1em;
-    }
-    .nav-item a{
-        font-size: 0.8em;
-    }
-    .aboutMeRow{
-        padding-bottom: 10px;
-    }
-    #aboutMeArticle h3{
-        font-size: 1em;
-    }
-    .col-md-2{
-        width: 16.66%;
-    }
-    .col-md-3{
-        width: 30%;
-    }
-    .col-md-3 img{
-        width: 100%;
-        padding:0px 0px;
-    }
-    .col-md-8{
-        width: 66.66%;;
-    }
-    .col-md-9{
-        width: 70%;
-    }
-}
-
-
-
-
-
-
 
 /* ------------------------Contact Styling---------------------------------------- */
 label {
-    display: block;
-    /* margin-top:5px; */
     margin-bottom: 5px;
 }
 
-input,
-textarea {
-    width: 90%;
-    display: block;
-    padding: 5px;
-    margin-bottom: 15px;
-    border: 1px solid #999;
+.form-control {
+    padding: 2px 5px;
+    height: 30px;
 }
 
 #btnSubmit {
@@ -207,6 +175,68 @@ textarea {
     cursor: pointer;
     font-size: 1.2em;
 }
+
+
+
+/* --------------------Media Query------------------------ */
+/* This styles breaks on point 424px - needs to fix that */
+
+/* ---------------Appled on devices smaller than 768px ----------- */
+@media only screen and (max-width: 768px) {
+    p {
+        font-size: 0.8em;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    .divAboutMe h2 {
+        font-size: 1.1em;
+        margin-left: 0;
+    }
+
+    .nav-item a {
+        font-size: 0.8em;
+    }
+
+    .aboutMeRow {
+        padding-bottom: 10px;
+    }
+
+    #aboutMeArticle h3 {
+        font-size: 1em;
+    }
+
+    .col-md-2 {
+        width: 16.66%;
+    }
+
+    .col-md-3 {
+        width: 30%;
+    }
+
+    .col-md-3 img {
+        width: 100%;
+        padding: 0px 0px;
+    }
+
+    .col-md-8 {
+        width: 66.66%;
+        ;
+    }
+
+    .col-md-9 {
+        width: 70%;
+    }
+}
+
+
+
+
+
+
+
 
 /* -------------------------------Portfolio Page Styling---------------------------------------------------- */
 .outerSectionPortfolio {
