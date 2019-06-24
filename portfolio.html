@@ -40,90 +40,95 @@
         </nav>
         <div class="container-fluid outerSectionClass">
             <div class="row mainRowClass">
-                <div class="col-md-2">
+                <div class="col-2 col-sm-2">
                     <!-- palceHolder Div -->
                 </div>
-                <div class="col-md-8 divAboutMe">
+                <div class="col-8 col-sm-8 divAboutMe">
                     <div class="row aboutMeRow">
-
-                        <div class="col-md-6">
+                        <div class="col-6 col-sm-6">
                             <h2>Portfolio</h2>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-6 col-sm-6">
                             <!-- PlaceHolder div -->
                         </div>
                     </div>
 
-                    <div class="row mainRowClass">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <section class="imgSectionClass">
-                                    <img id="img1" src="assets/images/img1.jfif" alt="Desert Image" width="150"
-                                        height="150" onclick="displayImage(this.src)">
-                                    <h2>Desert</h2>
-                                </section>
-                            </div>
-                            <div class="col-md-4">
-                                <section class="imgSectionClass">
-                                    <img src="assets/images/img2.jfif" alt="TajMahal,India" width="150" height="150"
-                                        onclick="displayImage(this.src)">
-                                    <h2>Taj Mahal, India</h2>
-                                </section>
-                            </div>
-                            <div class="col-md-4">
-                                <section class="imgSectionClass">
-                                    <img src="assets/images/img3.jfif" alt="Hyde Park, London" width="150" height="150"
-                                        onclick="displayImage(this.src)">
-                                    <h2>Hyde Park, London</h2>
-                                </section>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <section class="imgSectionClass">
-                                    <img src="assets/images/img4.jfif" alt="Moscow, Russia" width="150" height="150"
-                                        onclick="displayImage(this.src)">
-                                    <h2>Moscow, Rusia</h2>
-                                </section>
-                            </div>
-                            <div class="col-md-4">
-                                <section class="imgSectionClass">
-                                    <img src="assets/images/img5.jfif" alt="Twin Tower, Malaysia" width="150"
-                                        height="150" onclick="displayImage(this.src)">
-                                    <h2>Twin Tower, Malaysia</h2>
-                                </section>
-                            </div>
-                            <div class="col-md-4">
+                    <!-- <div class="row mainRowClass"> -->
 
-                            </div>
+                    <div class="row portfolioRow">
+                        <div class="col-12 col-md-4 text-center">
+                            <section class="imgSectionClass">
+                                <img id="img1" src="assets/images/img1.jfif" alt="Desert Image" width="150" height="150"
+                                    onclick="displayImage(this.src)">
+                                <h2>Desert</h2>
+                            </section>
+                        </div>
+                        <div class="col-12 col-md-4 text-center">
+                            <section class="imgSectionClass">
+                                <img src="assets/images/img2.jfif" alt="TajMahal,India" width="150" height="150"
+                                    onclick="displayImage(this.src)">
+                                <h2>Taj Mahal, India</h2>
+                            </section>
+                        </div>
+                        <div class="col-12 col-md-4 text-center">
+                            <section class="imgSectionClass">
+                                <img src="assets/images/img3.jfif" alt="Hyde Park, London" width="150" height="150"
+                                    onclick="displayImage(this.src)">
+                                <h2>Hyde Park, London</h2>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="row portfolioRow">
+                        <div class="col-12 col-md-4 text-center">
+                            <section class="imgSectionClass">
+                                <img src="assets/images/img4.jfif" alt="Moscow, Russia" width="150" height="150"
+                                    onclick="displayImage(this.src)">
+                                <h2>Moscow, Rusia</h2>
+                            </section>
+                        </div>
+
+                        <div class="col-12 col-md-4 text-center">
+                            <section class="imgSectionClass">
+                                <img src="assets/images/img5.jfif" alt="Twin Tower, Malaysia" width="150" height="150"
+                                    onclick="displayImage(this.src)">
+                                <h2>Twin Tower, Malaysia</h2>
+                            </section>
+                        </div>
+                        <div class="col-12 col-md-4 text-center">
+                            <section class="imgSectionClass">
+                                <img src="assets/images/img5.jfif" alt="Twin Tower, Malaysia" width="150" height="150"
+                                    onclick="displayImage(this.src)">
+                                <h2>Twin Tower, Malaysia</h2>
+                            </section>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2">
-                    <!-- PlaceHolder Div -->
-                </div>
+            <!-- </div> -->
+            <div class="col-2 col-sm-2">
+                <!-- PlaceHolder Div -->
             </div>
         </div>
-        <!------------------ footer--------- -->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <footer class="clear">
-                        copyright &copy; Hetal Patel
-                    </footer>
-                </div>
+    </div>
+    <!------------------ footer--------- -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <footer class="clear">
+                    copyright &copy; Hetal Patel
+                </footer>
             </div>
-
         </div>
 
+    </div>
 
-        <div id="imgOpenDiv">
-            <!-- Opens clicked image in this div -->
-            <header>
-                <span onclick="closeImg()">X</span>
-            </header>
-            <img src="" alt="" id="divImg">
-        </div>
+
+    <div id="imgOpenDiv">
+        <!-- Opens clicked image in this div -->
+        <header>
+            <span onclick="closeImg()">X</span>
+        </header>
+        <img src="" alt="" id="divImg">
+    </div>
 
     </div>
 

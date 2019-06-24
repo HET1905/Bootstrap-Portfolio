@@ -72,11 +72,9 @@ a.nav-link {
     float: left;
     margin-top: 5px;
     padding: 5px 5px;
-    /* cursor: pointer; */
 }
 
 .topMenu .topName {
-    /* border: 1px solid #000; */
     background: #4aaaa5;
     padding: 10px 5px;
     color: #fff;
@@ -98,7 +96,6 @@ a.nav-link {
 
 .outerSectionClass {
 
-    /* height: 600px; */
     height: auto;
     padding-bottom: 10%;
     background: #ccc url("../images/background.png") repeat;
@@ -110,7 +107,6 @@ a.nav-link {
 }
 
 .divAboutMe {
-    /* height: 480px; */
     height: auto;
     padding-bottom: 8%;
     border: 1px solid #ddd;
@@ -123,14 +119,14 @@ a.nav-link {
     margin-top: 5%;
     margin-left: 10%;
 }
-
+ 
 .aboutMeRow {
-    margin-right: 10px;
-    margin-left: 10px;
-    padding-bottom: 20px;
+/*    margin-right: 10px;
+    margin-left: 10px;*/
+     padding-bottom: 20px; 
     border-bottom: 1px solid #ddd;
-    ;
-}
+    
+} 
 
 .col-md-3 img {
     width: 90%;
@@ -182,7 +178,7 @@ label {
 /* This styles breaks on point 424px - needs to fix that */
 
 /* ---------------Appled on devices smaller than 768px ----------- */
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
     p {
         font-size: 0.8em;
     }
@@ -231,7 +227,7 @@ label {
     }
 }
 
-
+ */
 
 
 
@@ -239,7 +235,20 @@ label {
 
 
 /* -------------------------------Portfolio Page Styling---------------------------------------------------- */
-.outerSectionPortfolio {
+/* .portfolioRow{
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.imgSectionClass {
+    margin-left: auto;
+    margin-right: auto;
+}
+.imgSectionClass img{
+    width: 90%;
+    height: auto;
+} */
+/* .outerSectionPortfolio {
     height: 700px;
 }
 
@@ -247,11 +256,6 @@ label {
     height: 650px;
 }
 
-.imgSectionClass {
-    float: left;
-    margin-left: 10px;
-    margin-bottom: 10px;
-}
 
 .imgSectionClass h2 {
     margin: 0;
@@ -269,10 +273,10 @@ label {
 .imgSectionClass img {
     width: 200px;
     height: 200px;
-}
+} */
 
 /* ------------------------------- */
-
+/* 
 #imgOpenDiv {
     width: 500px;
     height: 410px;
@@ -315,5 +319,5 @@ label {
     width: 90%;
     height: 370px;
     margin-top: 0px;
-    /* margin-right: auto; */
-}
+    margin-right: auto;
+} */
