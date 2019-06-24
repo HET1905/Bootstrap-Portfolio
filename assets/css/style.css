@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 /* ----------------Common Styling--------------------------- */
@@ -38,9 +37,7 @@ h2 {
 }
 
 a {
-    text-decoration: none;
     color: #222;
-
 }
 
 a:hover {
@@ -51,7 +48,6 @@ a:hover {
 
 .nav {
     margin-right: 5%;
-
 }
 
 nav {
@@ -81,8 +77,8 @@ a.nav-link {
 }
 
 .rightMenu li {
-    margin-left: 15px;
-    padding-right: 5px;
+    margin-left: 1%;
+    padding-right: 1%;
     margin-top: 5px;
     margin-bottom: 5px;
     border-right: 1px solid #ccc;
@@ -95,7 +91,6 @@ a.nav-link {
 /* ----------------------Main Outer Section Styling--------------------- */
 
 .outerSectionClass {
-
     height: auto;
     padding-bottom: 10%;
     background: #ccc url("../images/background.png") repeat;
@@ -119,19 +114,17 @@ a.nav-link {
     margin-top: 5%;
     margin-left: 10%;
 }
- 
-.aboutMeRow {
-/*    margin-right: 10px;
-    margin-left: 10px;*/
-     padding-bottom: 20px; 
-    border-bottom: 1px solid #ddd;
-    
-} 
 
+.aboutMeRow {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+
+}
+/* 
 .col-md-3 img {
     width: 90%;
     height: auto;
-}
+} */
 
 #aboutMeArticle h3 {
     margin-top: 5%;
@@ -155,6 +148,11 @@ footer {
 
 
 /* ------------------------Contact Styling---------------------------------------- */
+.contactContainer {
+    width: 90%;
+    padding-top: 2%;
+}
+
 label {
     margin-bottom: 5px;
 }
@@ -175,116 +173,49 @@ label {
 
 
 
-/* --------------------Media Query------------------------ */
-/* This styles breaks on point 424px - needs to fix that */
-
-/* ---------------Appled on devices smaller than 768px ----------- */
-/* @media only screen and (max-width: 768px) {
-    p {
-        font-size: 0.8em;
-    }
-
-    h1 {
-        font-size: 1.2em;
-    }
-
-    .divAboutMe h2 {
-        font-size: 1.1em;
-        margin-left: 0;
-    }
-
-    .nav-item a {
-        font-size: 0.8em;
-    }
-
-    .aboutMeRow {
-        padding-bottom: 10px;
-    }
-
-    #aboutMeArticle h3 {
-        font-size: 1em;
-    }
-
-    .col-md-2 {
-        width: 16.66%;
-    }
-
-    .col-md-3 {
-        width: 30%;
-    }
-
-    .col-md-3 img {
-        width: 100%;
-        padding: 0px 0px;
-    }
-
-    .col-md-8 {
-        width: 66.66%;
-        ;
-    }
-
-    .col-md-9 {
-        width: 70%;
-    }
-}
-
- */
-
-
-
-
-
-
 /* -------------------------------Portfolio Page Styling---------------------------------------------------- */
-.portfolioRow{
-    /* margin-left:auto;
-    margin-right: auto; */
-    padding-top: 2%;
-}
-/*
-.imgSectionClass {
-    margin-left: auto;
-    margin-right: auto;
-}
-.imgSectionClass img{
-    width: 90%;
-    height: auto;
-} 
-/* .outerSectionPortfolio {
-    height: 700px;
+.portfolioRow {
+    padding-top: 5%;
 }
 
-.innerSectionPortfolio {
-    height: 650px;
-}
-*/
 .imgSectionClass h2 {
-    margin: 0;
+    margin-left: 5%;
+    width: 90%;
     position: relative;
     font-size: 1.1em;
-
     padding: 10px;
-    bottom: 50px;
+    bottom: 70px;
     text-align: center;
     background: #4aaaa5;
     color: #fff;
-
 }
 
 .imgSectionClass img {
-    width: 100%;
+    width: 90%;
     height: 200px;
-} 
+}
+.imgSectionClass img:hover{
+    padding: 2px;
+    background: #229;
+    cursor: pointer;
+    border: 1px solid #000;
+}
 
-/* ------------------------------- */
-/* 
-#imgOpenDiv {
-    width: 500px;
-    height: 410px;
-    position: absolute;
+/*------------------------------- */
+
+div #imgOpenDiv {
+    width: 300px;
+    height: 300px;
+    /* position: absolute; */
+    position: fixed;
     display: none;
-    top: 100px;
-    left: 550px;
+    
+    /*-----------To keep the image in center of the screen- no matter of screen size------------------------*/
+    top: 50%;
+    left: 50%;
+    margin-left: -150px; /*half of width*/
+    margin-top: -150px; /*half of height */
+    /* ----------------------------------------------------- */
     border: 1px solid #000;
     text-align: center;
     background: #e6c684;
@@ -297,7 +228,7 @@ label {
     width: 100%;
     height: 30px;
     background: #229;
-    color: #000;
+    color: rgb(240, 235, 235);
     text-align: right;
     padding: 5px 0;
     padding-right: 5px;
@@ -309,16 +240,16 @@ label {
 #imgOpenDiv header span {
     cursor: pointer;
     padding: 5px;
-
 }
 
 #imgOpenDiv header span:hover {
     background: #999;
+    color: #000;
 }
 
 #divImg {
     width: 90%;
-    height: 370px;
+    height: 255px;
     margin-top: 0px;
     margin-right: auto;
-} */
+}

@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid imgDialog">
 
         <nav class="topMenu">
             <a class="navbar-brand topName" href="#">
@@ -56,50 +56,50 @@
                     <!-- <div class="row mainRowClass"> -->
 
                     <div class="row portfolioRow">
-                        <div class="col-12 col-md-4 text-center">
+                        <div class="col-12 col-sm-4 text-center">
                             <section class="imgSectionClass">
-                                <img id="img1" src="assets/images/img1.jfif" alt="Desert Image" width="150" height="150"
+                                <img id="img1" src="assets/images/img1.jfif" class="rounded" alt="Desert Image" width="150" height="150"
                                     onclick="displayImage(this.src)">
                                 <h2>Desert</h2>
                             </section>
                         </div>
-                        <div class="col-12 col-md-4 text-center">
+                        <div class="col-12 col-sm-4 text-center">
                             <section class="imgSectionClass">
-                                <img src="assets/images/img2.jfif" alt="TajMahal,India" width="150" height="150"
+                                <img src="assets/images/img2.jfif" class="rounded" alt="TajMahal,India" width="150" height="150"
                                     onclick="displayImage(this.src)">
                                 <h2>Taj Mahal, India</h2>
                             </section>
                         </div>
-                        <div class="col-12 col-md-4 text-center">
+                        <div class="col-12 col-sm-4 text-center">
                             <section class="imgSectionClass">
-                                <img src="assets/images/img3.jfif" alt="Hyde Park, London" width="150" height="150"
+                                <img src="assets/images/img3.jfif" class="rounded" alt="Hyde Park, London" width="150" height="150"
                                     onclick="displayImage(this.src)">
                                 <h2>Hyde Park, London</h2>
                             </section>
                         </div>
                     </div>
                     <div class="row portfolioRow">
-                        <div class="col-12 col-md-4 text-center">
+                        <div class="col-12 col-sm-4 text-center">
                             <section class="imgSectionClass">
-                                <img src="assets/images/img4.jfif" alt="Moscow, Russia" width="150" height="150"
+                                <img src="assets/images/img4.jfif" class="rounded" alt="Moscow, Russia" width="150" height="150"
                                     onclick="displayImage(this.src)">
                                 <h2>Moscow, Rusia</h2>
                             </section>
                         </div>
 
-                        <div class="col-12 col-md-4 text-center">
+                        <div class="col-12 col-sm-4 text-center">
                             <section class="imgSectionClass">
-                                <img src="assets/images/img5.jfif" alt="Twin Tower, Malaysia" width="150" height="150"
+                                <img src="assets/images/img5.jfif" class="rounded" alt="Twin Tower, Malaysia" width="150" height="150"
                                     onclick="displayImage(this.src)">
                                 <h2>Twin Tower, Malaysia</h2>
                             </section>
                         </div>
-                        <div class="col-12 col-md-4 text-center">
-                            <section class="imgSectionClass">
+                        <div class="col-12 col-sm-4 text-center">
+                            <!-- <section class="imgSectionClass">
                                 <img src="assets/images/img5.jfif" alt="Twin Tower, Malaysia" width="150" height="150"
                                     onclick="displayImage(this.src)">
                                 <h2>Twin Tower, Malaysia</h2>
-                            </section>
+                            </section> -->
                         </div>
                     </div>
                 </div>
@@ -109,6 +109,14 @@
             </div>
         </div>
     </div>
+<!-- Opens clicked image in this div -->
+    <div  id="imgOpenDiv">
+        <header>
+            <span onclick="closeImg()">X</span>
+        </header>
+        <img src="" alt="" id="divImg">
+    </div>
+
     <!------------------ footer--------- -->
     <div class="container-fluid">
         <div class="row">
@@ -122,39 +130,12 @@
     </div>
 
 
-    <div id="imgOpenDiv">
-        <!-- Opens clicked image in this div -->
-        <header>
-            <span onclick="closeImg()">X</span>
-        </header>
-        <img src="" alt="" id="divImg">
-    </div>
+    
 
     </div>
 
-
+<script src="assets/js/script.js"></script>
 </body>
 
 </html>
 
-
-<!-- ------------------------------------------------------------------------------ -->
-
-<!-- -----------------------------------Portfolio------------------------------------- -->
-<!-- <section id="mainSectionAboutMe" class="outerSectionClass outerSectionPortfolio">
-
-    <section id="innerSectionAboutMe" class="innerSectionClass innerSectionPortfolio">
-        <header>
-            <h2>Portfolio</h2>
-        </header>
-
-
-
-
-
-
-
-
-
-    </section>
-</section> -->
