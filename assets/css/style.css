@@ -134,6 +134,7 @@ a.nav-link {
 }
 
 #aboutMeArticle h3 {
+    margin-top: 5%;
     margin-bottom: 5%;
     font-size: 1.5em;
 }
@@ -235,11 +236,12 @@ label {
 
 
 /* -------------------------------Portfolio Page Styling---------------------------------------------------- */
-/* .portfolioRow{
-    margin-left:auto;
-    margin-right: auto;
+.portfolioRow{
+    /* margin-left:auto;
+    margin-right: auto; */
+    padding-top: 2%;
 }
-
+/*
 .imgSectionClass {
     margin-left: auto;
     margin-right: auto;
@@ -247,7 +249,7 @@ label {
 .imgSectionClass img{
     width: 90%;
     height: auto;
-} */
+} 
 /* .outerSectionPortfolio {
     height: 700px;
 }
@@ -255,8 +257,7 @@ label {
 .innerSectionPortfolio {
     height: 650px;
 }
-
-
+*/
 .imgSectionClass h2 {
     margin: 0;
     position: relative;
@@ -271,9 +272,9 @@ label {
 }
 
 .imgSectionClass img {
-    width: 200px;
+    width: 100%;
     height: 200px;
-} */
+} 
 
 /* ------------------------------- */
 /* 
