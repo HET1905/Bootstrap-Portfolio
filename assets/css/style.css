@@ -271,10 +271,6 @@ div #imgOpenDiv {
 
 @media only screen and (max-width:450px) {
 
-    p {
-        /* color: red; */
-    }
-
     .topMenu a {
         float: none;
         margin-top: 0;
