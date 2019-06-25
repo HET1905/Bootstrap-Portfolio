@@ -272,7 +272,7 @@ div #imgOpenDiv {
 @media only screen and (max-width:450px) {
 
     p {
-        color: red;
+        /* color: red; */
     }
 
     .topMenu a {
