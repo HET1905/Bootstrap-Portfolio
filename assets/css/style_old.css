@@ -3,18 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 html {
     position: relative;
     /* min-height: 100%; */
-}
+  }
 
 /* ----------------Common Styling--------------------------- */
 body {
     font-family: Arial, Helvetica, sans-serif;
     /* margin-bottom: 60px; */
     color: #999;
-    background: #ccc url("../images/background.png") repeat;
     font-size: 1em;
     line-height: 1em;
 }
@@ -127,7 +125,6 @@ a.nav-link {
     border-bottom: 1px solid #ddd;
 
 }
-
 /* 
 .col-md-3 img {
     width: 90%;
@@ -205,8 +202,7 @@ label {
     width: 90%;
     height: 200px;
 }
-
-.imgSectionClass img:hover {
+.imgSectionClass img:hover{
     padding: 2px;
     background: #229;
     cursor: pointer;
@@ -221,14 +217,12 @@ div #imgOpenDiv {
     /* position: absolute; */
     position: fixed;
     display: none;
-
+    
     /*-----------To keep the image in center of the screen- no matter of screen size------------------------*/
     top: 50%;
     left: 50%;
-    margin-left: -150px;
-    /*half of width*/
-    margin-top: -150px;
-    /*half of height */
+    margin-left: -150px; /*half of width*/
+    margin-top: -150px; /*half of height */
     /* ----------------------------------------------------- */
     border: 1px solid #000;
     text-align: center;
@@ -266,27 +260,4 @@ div #imgOpenDiv {
     height: 255px;
     margin-top: 0px;
     margin-right: auto;
-}
-
-
-@media only screen and (max-width:450px) {
-
-    p {
-        color: red;
-    }
-
-    .topMenu a {
-        float: none;
-        margin-top: 0;
-    }
-    .navbar-brand{
-        margin-left: 0;
-    }
-    .topMenu .topName{
-        width:100%;
-        text-align: center;
-    }
-    .justify-content-end{
-        justify-content:center!important;
-    }
 }
